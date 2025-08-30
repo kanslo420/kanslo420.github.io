@@ -1,0 +1,20 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#span-1 {
+    color: magenta
+}
+
+#span-2 {
+    color:aquamarine
+}
+
+#span-3 {
+    color:pink
+}

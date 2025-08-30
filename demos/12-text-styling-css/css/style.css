@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#span-1 {
+    font-weight: bold;
+    text-decoration:wavy
+}
+
+#span-2 {
+    font-style: oblique;
+}
+
+#span-3 {
+    font-size: 24px;
+    line-height: 30px;
+    letter-spacing: 3px;
+}
+
+#span-4 {
+    font-family: serif;
+}
+
+#span-5 {
+    font-family: sans-serif;
+}
+
+#span-6 {
+    font-family: monospace;
+}
+
+#big-paragraph {
+    font-size: 12px;
+    line-height: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+#no-wavy {
+    text-decoration: none;
+    color:aquamarine;
+}
+
+#omg {
+    width: 100px
+}
+
+#alignment-test {
+    text-align:right
+}

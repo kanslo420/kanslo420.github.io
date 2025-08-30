@@ -1,0 +1,76 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#trial-1 {
+    color: green
+}
+
+#trial-2-1 {
+    color: hotpink
+}
+
+#trial-2-2 {
+    color: hotpink
+}
+
+#trial-3-1 {
+    color:red
+}
+
+#trial-3-2 {
+    color: yellow
+}
+
+#trial-3-3 {
+    color:blue
+}
+
+#trial-4 {
+    background-color: aqua;
+}
+
+#trial-5-1 {
+    background-color: yellow;
+}
+
+#trial-6-1 {
+    font-weight: 100;
+}
+
+#trial-6-2 {
+    font-weight: 100;
+}
+
+#trial-7-1 {
+    font-weight: 400;
+}
+
+#trial-8-1 {
+    text-decoration: underline;
+}
+
+#trial-9-1 {
+    font-size: x-large;
+    margin: 20px;
+}
+
+#trial-1 {
+    text-align: center;
+    font-weight: 300;
+}
+
+#trial-2 {
+    font-size: x-large;
+    text-align: center;
+}
+
+#trial-3 {
+    font-size: larger;
+    font-style: italic;
+}
