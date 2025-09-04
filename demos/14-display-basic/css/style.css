@@ -1,0 +1,24 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+span {
+    background-color:lightseagreen;
+}
+
+div {
+    background-color: lightpink;
+}
+
+.narrow {
+    width: 200px;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 24px;
+    padding: 24px;
+}
