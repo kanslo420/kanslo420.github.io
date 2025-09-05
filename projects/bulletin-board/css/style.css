@@ -1,0 +1,57 @@
+/*
+    NOTE TO STUDENTS: 
+
+    This is the file you should be writing your CSS in 
+    for the Bulletin Board assignment.
+
+    Good luck, and have fun!
+*/
+
+.post-it {
+    margin: 24px;
+    padding: 24px;
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+.magenta {
+    background-color: magenta;
+    font-size: 10px;
+}
+
+.blue {
+    background-color: lightblue;
+}
+
+.pink {
+    background-color: pink;
+}
+
+#jens-body {
+    width: 150px;
+    height: 150px;
+}
+
+.green {
+    background-color: green;
+    color: white;
+}
+
+.red {
+    background-color: red;
+    color: white;
+}
+
+.yellow {
+    background-color: lightyellow;
+    font-size: 12px;
+}
+
+#meme {
+    width: 150x;
+    height: 100px;
+    align: center;
+}
