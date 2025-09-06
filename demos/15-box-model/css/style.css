@@ -1,0 +1,20 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+ div {
+    margin: 20px auto;
+    border: 10px solid pink
+    border-radius: 50%;
+ }
+
+ #div-2 {
+    margin: 20px auto;
+    border: 10px dotted aquamarine
+    border-radius: 20%;
+    padding: 20px;
+ }
