@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#sidebar {
+    background-color: #333333;
+    color: white;
+    wdith: 500px;
+    min-height: 100vh;
+    padding: 24px;
+    text-align: left;
+    display: inline-block;
+}
+
+.chapter {
+    font-style: bold; 
+    font-size: 24px;
+    padding: 24px;
+    text-align: left;
+
+}
+
+div h4 {
+    font-size: 24px;
+    font-style: bold;
+}
+
+ul li {
+    margin: 10px;
+}
+
+.edit #chapter-4 {
+    color:red;
+}
+.edit {
+    color: orange;
+    font-style: italic;
+}
