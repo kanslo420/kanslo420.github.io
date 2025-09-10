@@ -23,7 +23,6 @@ body {
     font-size: 24px;
     padding: 24px;
     text-align: left;
-
 }
 
 div h4 {
@@ -35,7 +34,7 @@ ul li {
     margin: 10px;
 }
 
-.edit #chapter-4 {
+.chapter .edit {
     color:red;
 }
 .edit {
