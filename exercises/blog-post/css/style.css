@@ -1,0 +1,22 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+.center img {
+    width: 100%;
+}
+
+.center {
+    margin: auto;
+    width: 500px;
+    background-color: rgb(58, 2, 2);
+    color: aliceblue;
+    padding: 10px;
+    border-color: red;
+    border-width: 10px;
+}
