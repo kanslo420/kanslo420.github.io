@@ -1,0 +1,253 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Montserrat', sans-serif;
+            background: linear-gradient(135deg, #0c0c1e 0%, #1a1a3a 100%);
+            color: #e6e6e6;
+            line-height: 1.6;
+            padding: 0;
+            margin: 0;
+            min-height: 100vh;
+            background-image: 
+                radial-gradient(circle at 20% 30%, rgba(229, 57, 53, 0.15) 0%, transparent 40%),
+                radial-gradient(circle at 80% 70%, rgba(33, 150, 243, 0.1) 0%, transparent 40%);
+        }
+        
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        header {
+            text-align: center;
+            padding: 60px 20px;
+            background: linear-gradient(135deg, rgba(76, 0, 0, 0.7) 0%, rgba(118, 0, 0, 0.7) 100%);
+            border-radius: 15px;
+            margin-bottom: 40px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+            position: relative;
+            overflow: hidden;
+            border: 1px solid rgba(229, 57, 53, 0.3);
+        }
+        
+        header::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100" opacity="0.05"><path fill="%23FFFFFF" d="M50 0 L100 50 L50 100 L0 50 Z"/></svg>');
+            background-size: 80px;
+            opacity: 0.1;
+        }
+        
+        h1 {
+            font-family: 'Roboto Slab', serif;
+            font-size: 3.5rem;
+            margin-bottom: 15px;
+            color: #fff;
+            text-shadow: 0 0 15px rgba(229, 57, 53, 0.8), 0 0 25px rgba(229, 57, 53, 0.5);
+            letter-spacing: 2px;
+        }
+        
+        .subtitle {
+            font-size: 1.4rem;
+            color: #ff9e9e;
+            margin-bottom: 20px;
+        }
+        
+        .date {
+            display: inline-block;
+            background: rgba(0, 0, 0, 0.4);
+            padding: 8px 20px;
+            border-radius: 30px;
+            font-size: 1.1rem;
+            color: #ff5252;
+            border: 1px solid rgba(229, 57, 53, 0.5);
+        }
+        
+        .content {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 30px;
+            margin-bottom: 50px;
+        }
+        
+        .character-card {
+            background: linear-gradient(135deg, rgba(20, 20, 40, 0.9) 0%, rgba(30, 30, 60, 0.9) 100%);
+            border-radius: 15px;
+            padding: 30px;
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.4);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            border: 1px solid rgba(66, 66, 66, 0.5);
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .character-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 35px rgba(0, 0, 0, 0.5);
+        }
+        
+        .character-card::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 5px;
+            height: 100%;
+        }
+        
+        .muzan::before {
+            background: linear-gradient(to bottom, #d50000, #ff5131);
+        }
+        
+        .zenitsu::before {
+            background: linear-gradient(to bottom, #ffeb3b, #ffc107);
+        }
+        
+        .tanjiro-nezuko::before {
+            background: linear-gradient(to bottom, #2196f3, #03a9f4);
+        }
+        
+        .character-header {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+        
+        .character-icon {
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-right: 20px;
+            font-weight: bold;
+            font-size: 1.5rem;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
+        }
+        
+        .muzan .character-icon {
+            background: linear-gradient(135deg, #d50000 0%, #ff5131 100%);
+        }
+        
+        .zenitsu .character-icon {
+            background: linear-gradient(135deg, #ffeb3b 0%, #ffc107 100%);
+            color: #333;
+        }
+        
+        .tanjiro-nezuko .character-icon {
+            background: linear-gradient(135deg, #2196f3 0%, #03a9f4 100%);
+        }
+        
+        h2 {
+            font-family: 'Roboto Slab', serif;
+            font-size: 2rem;
+            margin-bottom: 5px;
+            background: linear-gradient(45deg, #fff, #e0e0e0);
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+        }
+        
+        .character-subtitle {
+            color: #aaa;
+            font-size: 1rem;
+            margin-bottom: 15px;
+        }
+        
+        p {
+            margin-bottom: 15px;
+            font-size: 1.1rem;
+            color: #d1d1d1;
+        }
+        
+        .prediction {
+            padding-left: 20px;
+            border-left: 3px solid rgba(229, 57, 53, 0.5);
+            margin: 20px 0;
+        }
+        
+        footer {
+            text-align: center;
+            padding: 30px;
+            background: rgba(10, 10, 20, 0.8);
+            border-radius: 15px;
+            margin-top: 40px;
+            border: 1px solid rgba(66, 66, 66, 0.3);
+        }
+        
+        footer p {
+            color: #aaa;
+            font-size: 1rem;
+        }
+        
+        .demon-slayer-logo {
+            font-family: 'Roboto Slab', serif;
+            font-size: 1.8rem;
+            color: #ff5252;
+            margin-bottom: 15px;
+            text-shadow: 0 0 10px rgba(229, 57, 53, 0.5);
+        }
+        
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2.5rem;
+            }
+            
+            .subtitle {
+                font-size: 1.2rem;
+            }
+            
+            .character-card {
+                padding: 20px;
+            }
+            
+            .character-icon {
+                width: 50px;
+                height: 50px;
+                font-size: 1.2rem;
+            }
+            
+            h2 {
+                font-size: 1.6rem;
+            }
+        }
+        
+        /* Decorative elements */
+        .decorative-line {
+            height: 2px;
+            background: linear-gradient(90deg, transparent, rgba(229, 57, 53, 0.5), transparent);
+            margin: 30px 0;
+        }
+        
+        .pattern-bg {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: 
+                radial-gradient(circle at 20% 30%, rgba(229, 57, 53, 0.1) 0%, transparent 40%),
+                radial-gradient(circle at 80% 70%, rgba(33, 150, 243, 0.1) 0%, transparent 40%);
+            pointer-events: none;
+        }
+    </style>
