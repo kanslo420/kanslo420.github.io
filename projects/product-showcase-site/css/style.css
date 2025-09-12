@@ -9,10 +9,11 @@ body {
 }
 
 .single-column {
-    max-width: 500px;
+    max-width: auto;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
+    line-height: normal;
 }
 
 .single-column-dark {
