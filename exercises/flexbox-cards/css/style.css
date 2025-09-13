@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+
+#single-column {
+    max-width: 800px;
+    margin: 36px auto;
+}
+
+.card {
+    border: 5px solid rgb(0, 0, 0);
+    padding: 36px;
+    text-align: center;
+    margin: 36px 0px;
+    border-radius: 10%;
+}
+
+.card h3 {
+    font-size: 36px;
+    margin: 0px;
+}
+
+.card p {
+    font-size: 24px;
+    margin: 24px 0px 0px;
+}
+
+#card-container {
+    display: flex;
+    gap: 36px;
+    
+}
+
+img {
+    width: 200px;
+}
+
+#inosuke {
+    background: linear-gradient(rgb(46, 58, 88), white);
+}
+
+#zenitsu {
+    background: linear-gradient(orange, rgb(115, 250, 248))
+}
+
+#tanjiro {
+    background: linear-gradient(red, black);
+    color: white;
+}
