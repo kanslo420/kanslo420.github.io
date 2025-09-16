@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#single-column {
+    max-width: 800px;
+    margin: 36px auto;
+    border: 2px solid pink;
+}
+
+#side-by-side {
+    display: flex;
+    align-items: center;
+    gap: 36px;
+}
+
+#side-by-side img {
+    width: 50%;
+
+}
+
+#side-by-side h2 {
+    font-size: 60px;
+}
+
+#side-by-side-2 .image-container img {
+    width: 100%;
+}
+
+#side-by-side-2 {
+    display: flex;
+    align-items: center;
+    gap: 36px;
+}
+
+#side-by-side .text-container {
+    flex: 1;
+}
