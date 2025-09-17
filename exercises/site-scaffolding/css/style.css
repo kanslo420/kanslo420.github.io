@@ -7,19 +7,19 @@ body {
     font-family: sans-serif;
 }
 
-#navbar {
-     background: linear-gradient(to left, pink, gold)
+.navbar {
+    background: linear-gradient(pink, gold)
     display: flex;
     justify-content: space-between;
 }
 
-#navbar a {
+.navbar a {
     text-decoration: none;
     color: black;
     padding: 24px;
 }
 
-#navbar #call-to-action {
+.navbar #call-to-action {
     background-color: gold;
     color: black;
     border-radius: 36px;
