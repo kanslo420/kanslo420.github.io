@@ -1,3 +1,5 @@
+<link href="https://fonts.googleapis.com/css2?family=Limelight&family=Notable&display=swap" rel="stylesheet">
+
 * {
     box-sizing: border-box;
 }
@@ -5,4 +7,60 @@
 body {
     margin: 0px;
     font-family: sans-serif;
+}
+
+#centered-single-column {
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#title-text {
+    display: block;
+    padding: 5px;
+    text-align: center;
+    font-family: "Limelight", sans-serif;
+}
+
+#images img {
+    max-width: 250px;
+    display: inline-block;
+    
+    
+    padding: 10px;
+}
+
+#images {
+    display: flex;
+    align-items: center;
+    
+}
+
+.button {
+    display: flex;
+}
+
+.buttons a {
+    display: block;
+    text-align: center;
+    background-color:  rgb(65, 59, 182);
+    text-decoration: none;
+    color: white;
+    margin: 5px;
+    padding: 5px;
+}
+
+#text-information {
+    display: block;
+    text-align: center;
+}
+
+#images h2 {
+    text-align: end;
+    padding: 2px;
+}
+
+#contact {
+    text-align: center;
+    font-weight: bold;
 }
