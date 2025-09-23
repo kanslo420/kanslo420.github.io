@@ -13,6 +13,7 @@ body {
     max-width: 500px;
     margin-left: auto;
     margin-right: auto;
+    
 }
 
 #title-text {
@@ -25,6 +26,8 @@ body {
 #images img {
     max-width: 250px;
     display: inline-block;
+    width: 250px;
+    
     
     
     padding: 10px;
