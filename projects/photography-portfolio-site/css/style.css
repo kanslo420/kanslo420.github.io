@@ -1,0 +1,82 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+    background-color: black;
+}
+
+#nav {
+    background-color: rgb(23, 23, 39);
+    display: flex;
+    justify-content: center;
+}
+
+#nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+    padding: 20px;
+}
+
+#hero-image {
+    background-image: linear-gradient(to left, rgba(0, 0, 0, 0.417), rgba(36, 25, 25, 0.491)),
+    url("../images/urban-hi-res-1ui7.jpg")  ;
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    color: white;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10%;
+}
+
+#hero-img img {
+    max-width: 800px;
+}
+
+#hero-image a {
+    padding: 5px;
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+    background-color: rgb(40, 40, 79);
+    border: .5px solid white;
+    align-items: baseline;
+}
+
+#layout {
+    max-width: 1000px;
+    margin: 48px auto;
+    text-align: center;
+}
+
+.gallery {
+    columns: 3 auto;
+    column-gap: 24px;
+}
+
+.gallery img {
+    width: 100%;
+    margin-bottom: 24px;
+}
+
+@media screen and (max-width: 640px) {
+    .gallery {
+        columns: 2 auto;
+        column-gap: 20px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+   
+    #nav {
+        flex-direction: column;
+        align-items: center;
+
+    }
+    
+}
