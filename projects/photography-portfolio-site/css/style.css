@@ -1,3 +1,6 @@
+
+<link href="https://fonts.googleapis.com/css2?family=Barriecito&display=swap" rel="stylesheet">
+
 * {
     box-sizing: border-box;
 }
@@ -45,7 +48,12 @@ body {
     font-size: 24px;
     background-color: rgb(40, 40, 79);
     border: .5px solid white;
-    align-items: baseline;
+    
+}
+
+#hero-image h1 {
+ font-family: "Barriecito", system-ui;
+  
 }
 
 #layout {
